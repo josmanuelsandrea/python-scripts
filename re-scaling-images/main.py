@@ -1,7 +1,7 @@
 from PIL import Image
 
 image_name = 'source' # You can change the name of the source image here
-output_name = 'scania_logo' # You can change the output name of the new images here
+output_name = 'source' # You can change the output name of the new images here
 
 image_format = 'png' # Image format
 image = Image.open(f'{image_name}.{image_format}') # Open the image using open method
